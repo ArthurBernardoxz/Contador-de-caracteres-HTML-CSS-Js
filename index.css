@@ -1,4 +1,17 @@
+html{
+    background-color: black;
+}
 h1{
     text-align: center;
     justify-content: center;
+    color: white;
+}
+body {
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+input {
+    width: 500px;
+    padding-bottom: 200px;
 }
