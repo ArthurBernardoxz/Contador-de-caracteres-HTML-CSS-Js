@@ -15,5 +15,10 @@ function mostrar(){
     count = string.match(/ /g);
     string2 = string.split(" ");
     palavras_El.textContent = string2.length;
+    if(contador_El.value == "" || contador_El.value == 0){
+        caractere_El.textContent = 0;
+        palavras_El.textContent = 0;
+        espacos_El.textContent = 0;
+    }
     espacos_El.textContent = count.length;
 }
