@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,400;1,700&display=swap');
+
+
 html{
-    background-color: black;
+    background-color: #60A8FF;
 }
 h1{
     text-align: center;
     justify-content: center;
-    color: white;
+    color: blue;
+    font-family: 'Asap Condensed', sans-serif;
+    font-size:50px;
+    text-shadow: 0.08em 0.05em 0.1em white ;
 }
 body {
     justify-content: center;
@@ -14,5 +20,23 @@ body {
 input {
     width: 500px;
     padding-bottom: 200px;
-    border-radius: 10px;
+}
+p {
+    font-size:35px;
+    font-family: 'Asap Condensed', sans-serif;
+}
+
+#contador {
+    font-family: 'Asap Condensed', sans-serif;
+}
+
+textarea {
+    color: Black;
+    background-color: white;
+    border-color: blue;
+    border-width: 1.5px;
+    font-size: 23px;
+    border-radius: 15px;
+    width: 500px;
+    height: 250px;
 }
